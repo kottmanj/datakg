@@ -1,3 +1,10 @@
+# needs:
+# pip install tequila-basic
+# pip install qulacs
+# pip install pyscf
+# conda install madtequila -c kottmann
+# the latter only runs on linux-64 or mac with intel processors
+# if on mac with arm1 you need to compile yourself (see tq github page -> madness) 
 import tequila as tq
 from pyscf import gto
 import numpy
